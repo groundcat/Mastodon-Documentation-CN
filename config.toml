@@ -1,6 +1,8 @@
 baseURL = "https://mastodoncn.netlify.app/"
 languageCode = "zh-cn"
-defaultContentLanguage = "zh_CN"
+defaultContentLanguage = "zh-cn"           # Default language to use
+[languages.zh-cn]
+  languageCode = "zh-cn"
 title = "Mastodon documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "dracula"
