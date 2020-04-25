@@ -1,10 +1,6 @@
 baseURL = "https://mastodoncn.netlify.app/"
 languageCode = "en-us"
 defaultContentLanguage = "zh-cn"           # Default language to use
-[languages.en]
-  languageCode = "en"
-[languages.zh-cn]
-  languageCode = "zh-cn"
 title = "Mastodon documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "dracula"
@@ -58,4 +54,8 @@ enableGitInfo = true
   [languages.en]
     contentDir = "content/en"
     languageName = "English"
+    weight = -99
+  [languages.zh-cn]
+    contentDir = "content/zh-cn"
+    languageName = "Simplified Chinese"
     weight = -99
