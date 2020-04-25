@@ -1,6 +1,6 @@
-baseURL = "http://docs.joinmastodon.org/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+baseURL = "https://mastodoncn.netlify.app/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
 title = "Mastodon documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "dracula"
