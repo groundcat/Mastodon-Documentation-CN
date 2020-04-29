@@ -1,7 +1,7 @@
 baseURL = "https://mastodoncn.netlify.app/"
 languageCode = "en-us"
-defaultContentLanguage = "zh-cn"           # Default language to use
-title = "Mastodon documentation"
+defaultContentLanguage = "zh-cn" # Default language to use
+title = "长毛象中文用户使用文档"
 pygmentsCodeFences = true
 pygmentsStyle = "dracula"
 metaDataFormat = "yaml"
@@ -10,51 +10,12 @@ enableGitInfo = true
 
 [menu]
   [[menu.docs]]
-    name = "Using Mastodon"
+    name = "使用长毛象"
     weight = 10
     identifier = "user"
     url = "/user/"
-  [[menu.docs]]
-    name = "Running Mastodon"
-    weight = 20
-    identifier = "admin"
-    url = "/admin/"
-  [[menu.docs]]
-    name = "Developing Mastodon apps"
-    weight = 30
-    identifier = "client"
-    url = "/client/"
-  [[menu.docs]]
-    name = "Contributing to Mastodon"
-    weight = 40
-    identifier = "dev"
-    url = "/dev/"
-  [[menu.docs]]
-    name = "Spec compliance"
-    weight = 50
-    identifier = "spec"
-    url = "/spec/"
-  [[menu.docs]]
-    name = "REST API"
-    weight = 60
-    identifier = "api"
-    url = "/api/"
-  [[menu.docs]]
-    name = "API Methods"
-    weight = 70
-    identifier = "methods"
-    url = "/methods/"
-  [[menu.docs]]
-    name = "API Entities"
-    weight = 80
-    identifier = "entities"
-    url = "/entities/"
 
 [languages]
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    weight = -99
   [languages.zh-cn]
     contentDir = "content/zh-cn"
     languageName = "Simplified Chinese"
