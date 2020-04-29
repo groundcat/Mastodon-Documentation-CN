@@ -1,6 +1,6 @@
 ---
 title: 什么是长毛象？
-description: 欢迎来到长毛象的文档！
+description: 欢迎来到长毛象的中文用户使用手册！
 menu:
   docs:
     weight: -99
@@ -24,7 +24,7 @@ menu:
 
 和传统网站一样，长毛象网站可以独立运作。人们可以在上面注册、发布消息、上传图片、互相聊天。但与传统网站*不同*的是，长毛象网站之间可以互动，让跨站用户互相交流，就好像只要你知道他们的电子邮件地址，你就可以从你的Gmail帐户发送电子邮件给使用Outlook、Fastmail、Protonmail或任何其他电子邮件供应商的用户。在长毛象里，**你可以对任何人在任何网站上的地址进行“@”或私信**。
 
-{{< figure src="/assets/image%20%289%29.png" caption="From left to right: Centralized, Federated, Distributed" >}}
+{{< figure src="/assets/image%20%289%29.png" caption="上图从左到右依次为：集中式、联邦式、分布式" >}}
 
 ## ActivityPub是什么？ {#fediverse}
 
@@ -37,15 +37,15 @@ menu:
 * Misskey：包括微博和可定制的仪表盘
 * PeerTube：可以让你上传视频到频道
 * Plume：它可以用来发布长篇嘟文
-*  除此之外，还包括许多个人网站！
+* 除此之外，许多个人网站也支持ActivityPub！
 
-**联邦宇宙**没有自己的所谓品牌，所以你可能更常听到“来关注我的长毛象吧”而不是“来关注我的联邦宇宙吧”。虽说从技术上讲，后者更正确。
+**联邦宇宙**没有自己的所谓品牌，所以你可能更常听到“来关注我的长毛象吧”而不是“来关注我的联邦宇宙吧”。虽说从技术上讲，后者的说法更准确。
 
 ## 实际意义 {#implications}
 
 ### 自由地选择服务提供者和用户政策{#choice}
 
-因为长毛象是只是一个可以用于驱动任何网站的一款软件，长毛象的用户们可以自由地从现有的长毛象网站中选择一个入驻，或者如果用户愿意的话，也可以创建自己的长毛象网站。长毛象官方在joinmastodon.org上有一个列表，其中推荐了一系列长毛象站点，该列表可按类别与语言进行分类。一些网站可能有特定的管理政策，比如要求使用特定的标签覆盖可能敏感的内容，另一些网站的管理政策可能更宽松，但列表中列出所有的网站都需要同意采用长毛象服务器公约，这意味着他们承诺积极处理并反对仇恨言论、采取每日备份、至少有一个应急管理员、并在关站前提供至少3个月预先通知。
+因为长毛象是只是一个可以用于驱动任何网站的一款软件，长毛象的用户们可以自由地从现有的长毛象网站中选择一个入驻，或者如果用户愿意的话，也可以创建自己的长毛象网站。长毛象官方在 joinmastodon.org 上有一个列表，其中推荐了一系列长毛象站点，该列表可按类别与语言进行分类。一些网站可能有特定的管理政策，比如要求使用特定的标签覆盖可能敏感的内容，另一些网站的管理政策可能相对更宽松，但列表中列出所有的网站都需要同意采用《长毛象服务器公约》，这意味着他们承诺积极处理并反对仇恨言论、采取每日备份、至少有一个应急管理员、并在关站前提供至少3个月预先通知。
 
 > 维护所有成员都感到安全的社区并不容易。长毛象提供了许多基本的框架和工具，并将权力从一个商业实体转移到社区本身。
 >
@@ -59,19 +59,19 @@ menu:
 
 长毛象网站是由不同的人或组织完全独立运作的，没有在软件中实现任何盈利策略。
 
-某些服务器的运营者选择自费运营、某些运营者可以利用其公司现有的基础设施、某些运营者通过Patreon等平台向用户众筹资金、某些运营者只是自费为自己和朋友搭建私人服务器。所以，如果你想支持服务器的运营者，记得看看它是否提供捐赠的方式。
+一些服务器的运营者选择自费运营、一些运营者可以利用现有的基础设施运营、一些运营者通过Patreon等平台向用户众筹资金、另一些运营者只是自费为自己和朋友搭建私人服务器。所以，如果你想支持服务器的运营者，记得看看它是否提供了捐赠的渠道。
 
-长毛象的开发同样是通过Patreon和OpenCollective众筹的。**不涉及风险投资**。
+长毛象的开发同样是通过Patreon和OpenCollective众筹的。**长毛象的开发不涉及风险投资**。
 
-> 在我看来，“即时、公开、全球信息和对话”实际上应该是全球性的。在独立组织和能够自我管理的行动者之间进行分配。这是一家公共事业公司，没有利用这些对话牟利的动机。
+> 在我看来，“即时、公开、全球信息和对话” 实际上应该是全球性的。在独立组织和能够自我管理的行动者之间进行分配。这是一家公共事业公司，没有利用这些对话牟利的动机。
 >
 > -- Eugen Rochko, Mar 3 2018, ["Twitter is not a public utility"](https://blog.joinmastodon.org/2018/03/twitter-is-not-a-public-utility/)
 
 ### 跨平台互联{#interoperability}
 
-让我们想象一下，如果Twitter和Instagram是使用相同协议的联合服务，那么你将可以从你的Twitter账户关注一个Instagram用户，并评论他们的照片。有了长毛象，你可以与其他任何与之兼容的网站交流，即使它不是在长毛象上运行。这些网站的交互所需要的是支持ActivityPub协议的软件。要了解更多有关与长毛象互联所需的技术规范，请参阅ActivityPub、WebFinger和Security。要了解更多关于ActivityPub允许我们做什么，请看《为什么ActivityPub是未来》。
+让我们想象一下，如果Twitter和Instagram是使用相同协议的联合服务，那么你将可以从你的Twitter账户关注一个Instagram用户，并评论他们的照片。有了长毛象，*你可以与其他任何与之兼容的网站交流，即使那些网站不是在长毛象上运行*。这些网站的交互所需要的是支持ActivityPub协议的软件。要了解更多有关与长毛象互联所需的技术规范，请参阅[ActivityPub](https://docs.joinmastodon.org/spec/activitypub.md)、[WebFinger](https://docs.joinmastodon.org/spec/webfinger.md)和[Security](https://docs.joinmastodon.org/spec/security.md]。要了解更多关于ActivityPub的用处，请参阅[《为什么ActivityPub是未来》](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/)。
 
-> 所有这些平台都是不同的，它们关注不同的需求。然而，它们从根本上都是一样的：一些人订阅另一些人的嘟文。因此，它们都是兼容的。
+> 所有这些平台都是不同的，它们关注不同的需求。然而，它们从根本上都是一样的：一些人订阅另一些人的帖子。因此可以说，它们都是兼容的。
 >
 > -- Eugen Rochko, Jun 27 2018, ["Why ActivityPub is the future"](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/)
 
@@ -87,7 +87,7 @@ menu:
 >
 > -- Eugen Rochko, Dec 30 2018, ["Why does decentralization matter?"](https://blog.joinmastodon.org/2018/12/why-does-decentralization-matter/)
 
-## 开始你的旅程吧 {#next-steps}
+## 开始你的旅程吧！ {#next-steps}
 
 学习如何使用长毛象：
 
@@ -95,15 +95,13 @@ menu:
 
 学习如何安装长毛象：
 
-{{< page-ref page="admin/prerequisites.md" >}}
+{{< caption-link url="https://docs.joinmastodon.org/admin/prerequisites/" caption="准备你的服务器" >}}
 
 学习如何为长毛象编写应用程序：
 
-{{< page-ref page="client/intro.md" >}}
+{{< caption-link url="https://docs.joinmastodon.org/client/intro/" caption="开始使用长毛象API" >}}
 
 了解长毛象后端和如何作出贡献：
 
-{{< page-ref page="dev/overview.md" >}}
-
-
+{{< caption-link url="https://docs.joinmastodon.org/dev/overview/" caption="技术概览" >}}
 
